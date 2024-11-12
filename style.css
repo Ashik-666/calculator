@@ -1,0 +1,86 @@
+
+.box{
+    width: 350px;
+    height: 200px;
+    background-color: green;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: auto;
+  
+
+}
+
+.res{
+   
+    width: 290px;
+    height: 30px;
+    background-color: blue;   
+  
+}
+.num_1{
+    width: 60px;
+    height: 30px;
+    background-color: blue;
+    
+}
+.num_2{
+    width: 60px;
+    height: 30px;
+   
+    margin-left: 170px ;
+    background-color: blue;
+}
+.num_box{
+    
+    display: flex;
+    margin-top: 30px;
+    width: 290px;
+    
+}
+
+.operations{
+   
+    margin-top:30px ;
+    display: flex;
+    width: 290px;
+}
+
+.add{
+    width: 50px;
+    height: 30px;
+    background-color: blueviolet;
+    
+}
+.sub{
+    width: 50px;
+    height: 30px;
+    background-color:aqua;
+    margin-left: 30px;
+}
+.mutli{
+    width: 50px;
+    height: 30px;
+    background-color:red;
+    margin-left: 30px;
+}
+.divi{
+    width: 50px;
+    height: 30px;
+    background-color:chartreuse;
+    margin-left: 30px;
+}
+.input_1{
+    width: 53px;
+    height: 30px;
+    font-size: 20px;
+}
+.input_2{
+    width: 53px;
+    height: 30px;
+}
+.bt1{
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+}

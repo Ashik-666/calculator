@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+         <div class="res">
+                    <h2 id="result"> </h2>
+         </div>
+        <div class="num_box">
+            <div class="num_1">
+                <input type="text"  id="Num1" class="input_1">
+
+            </div>
+            <div class="num_2">
+                <input type="text"  id="Num2" class="input_2">
+            </div>
+    
+        </div>
+        <div class="operations">
+            <div class="add">
+                <button class="bt1" onclick="add()">
+                    +
+                </button>
+            </div>
+            <div class="sub" >
+                <button class="bt1" onclick="sub()">
+                    -
+                </button>
+
+            </div>
+            <div class="mutli" >
+                <button class="bt1" onclick="multi()">
+                    *
+                </button>
+            </div>
+            <div class="divi">
+                <button class="bt1" onclick="divi()">
+                    /
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+          function add(){
+            let a = document.getElementById("Num1").value;
+            console.log(a)
+            let b = document.getElementById("Num2").value;
+            console.log(b)
+            let c  =    parseInt(a) + parseInt(b)
+            console.log(c)
+            document.getElementById("result").innerHTML=c
+          } 
+
+          function sub(){
+            let a = document.getElementById("Num1").value;
+            console.log(a)
+            let b = document.getElementById("Num2").value;
+            console.log(b)
+            let c = parseInt(a) - parseInt(b)
+            console.log(c)
+            document.getElementById("result").innerHTML=c
+          }
+          function multi(){
+            let a = document.getElementById("Num1").value;
+            console.log(a)
+            let b = document.getElementById("Num2").value;
+            console.log(b)
+            let c = parseInt(a) * parseInt(b)
+            console.log(c)
+            document.getElementById("result").innerHTML=c
+          }
+          function divi(){
+            let a = document.getElementById("Num1").value;
+            console.log(a)
+            let b =document.getElementById("Num2").value;
+            console.log(b)
+            let c =  parseInt(a) / parseInt(b)
+            console.log(c)
+            document.getElementById("result").innerHTML=c
+
+          }
+          
+    </script>
+</body>
+</html>
